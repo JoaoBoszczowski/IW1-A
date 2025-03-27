@@ -5,20 +5,61 @@ background-color:#ff6500;
 }
 div {
 border: solid #00ff00;
+width: 250px;
 }
 p {
 border: solid #00ff00;
-
+width: 250px;
+text-align: center;
 }
 h1 {
 border:solid #00ff00;
-
+width: 250px;
+text-align: center;
 }
 .card {
-    background-color: aqua;
-    border: #00ff00;
+    background-color: white;
+    border: solid #00ff00;
+    width: 250px;
 }
 .card-imagem{
 background-color: aqua;
-border: #00ff00;
+border:solid #00ff00;
+width: 250px;
 }
+img {
+width: 200px;
+height: 200px; ;
+}
+.card-botao {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ff6500;
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: bold;
+}
+button {
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ff6500;
+    color: #FFFFFF;
+    font-family: arial;
+    font-weight: bold;
+}
+.card-descricao {
+    width: 230px;
+font-family: arial;
+font-weight: bold;
+font-size: 18px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
+
+
+}
+
+
+

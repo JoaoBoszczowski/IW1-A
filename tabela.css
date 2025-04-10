@@ -1,0 +1,28 @@
+body, html{
+margin: 0;
+padding: 0;
+height: 100%;
+background-color: #cccccc;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+td{
+font-size: 40px;
+border: 1px solid #000000;
+text-align: center;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+padding-right: 5px;
+border-radius: 5px;
+}
+table {
+    background-color: darksalmon;
+    padding: 20px 10px;
+    
+}
+th{
+    font-size: 40px;
+    text-align: center;
+}

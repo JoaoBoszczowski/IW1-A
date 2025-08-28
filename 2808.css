@@ -1,10 +1,27 @@
 .quad {
+    position: fixed;
     background-color: blue;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 .quad2 {
+    position: absolute;
     background-color: orangered;
     width: 100px;
     height: 100px;
+}
+div {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body {
+    width: 1500px;
+    height: 1500px;
+}
+.quad3 {
+    position: absolute;
+    background-color: green;
+    width: 50px;
+    height: 200px;
 }

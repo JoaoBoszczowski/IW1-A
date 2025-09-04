@@ -1,0 +1,31 @@
+.quad {
+    position: absolute;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.quad2 {
+    position: absolute;
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+div {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+body {
+    position: relative;
+    width: 1500px;
+    height: 1500px;
+}
+.quad3 {
+    position: absolute;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}

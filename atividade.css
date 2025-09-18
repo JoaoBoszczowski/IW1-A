@@ -57,7 +57,6 @@ footer {
   color: #777;
 }
 
-/* Responsividade */
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.5rem;

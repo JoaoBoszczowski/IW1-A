@@ -12,6 +12,12 @@
     header {
       background: linear-gradient(90deg, #66a1fa, #35018a);
     }
+    .form-section {
+      background: #fff;
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
   </style>
 </head>
 <body>
@@ -74,28 +80,28 @@
         <div class="col-md-8 col-lg-6">
           <div class="form-section">
             <form>
-              <div class="">
-                <label for="nome" class="">Nome</label>
-                <input type="text" class="" id="nome" placeholder="Digite seu nome">
+              <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
               </div>
-              <div class="">
-                <label for="email" class="">E-mail</label>
-                <input type="email" class="" id="email" placeholder="exemplo@email.com">
+              <div class="mb-3">
+                <label for="email" class="form-label">E-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="exemplo@email.com">
               </div>
-              <div class="">
-                <label for="assunto" class="">Assunto</label>
-                <select class="" id="assunto">
+              <div class="mb-3">
+                <label for="assunto" class="form-label">Assunto</label>
+                <select class="form-select" id="assunto">
                   <option selected>Selecione...</option>
                   <option value="1">Dúvidas</option>
                   <option value="2">Sugestões</option>
                   <option value="3">Suporte</option>
                 </select>
               </div>
-              <div class="">
-                <label for="mensagem" class="">Mensagem</label>
-                <textarea class="" id="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+              <div class="mb-3">
+                <label for="mensagem" class="form-label">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
               </div>
-              <button type="submit" class="">Enviar</button>
+              <button type="submit" class="btn btn-primary w-100">Enviar</button>
             </form>
           </div>
         </div>
@@ -104,8 +110,8 @@
   </section>
 
   <!-- Footer -->
-  <footer class="">
-    <p class="">&copy; 2025. Todos os direitos reservados</p>
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025. Todos os direitos reservados</p>
   </footer>
 
 

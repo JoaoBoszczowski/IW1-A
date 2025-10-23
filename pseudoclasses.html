@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudoclasses e Pseudo-elementos em CSS</title>
+  <link rel="stylesheet" href="pseudoclasses.css">
+</head>
+<body>
+
+  <header>
+    <h1>Pseudoclasses e Pseudo-elementos em CSS</h1>
+  </header>
+
+  <main>
+    <!-- PSEUDOCLASSES -->
+    <section class="links">
+      <h2>1. Links com :hover, :active, :visited</h2>
+      <a href="#">Link Normal</a>
+      <a href="#">Link Visitado</a>
+      <a href="#">Link Ativo</a>
+    </section>
+
+    <section class="formulario">
+      <h2>2. Campos de Formulário com :focus e :disabled</h2>
+      <input type="text" placeholder="Digite algo...">
+      <input type="text" placeholder="Desabilitado" disabled>
+      <button>Enviar</button>
+    </section>
+
+    <section class="lista">
+      <h2>3. Lista com :first-child, :last-child, :nth-child()</h2>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. Usando :not()</h2>
+      <div class="caixas">
+        <div class="caixa">Normal</div>
+        <div class="caixa destaque">Destaque</div>
+        <div class="caixa">Normal</div>
+      </div>
+    </section>
+
+    <!-- PSEUDO-ELEMENTOS -->
+    <section class="pseudo-elementos">
+      <h2>5. Pseudo-elementos ::before, ::after, ::first-letter, ::first-line, ::placeholder</h2>
+
+      <div class="cartao">
+        <h3>Cartão Decorado</h3>
+        <p>Este parágrafo demonstra o uso de <strong>::first-letter</strong> e <strong>::first-line</strong> para estilizar partes específicas do texto e se eu continuar escrevendo a linha 2 vai ficar diferente.</p>
+      </div>
+
+      <input type="text" placeholder="Digite seu nome...">
+    </section>
+  </main>
+
+</body>
+</html>

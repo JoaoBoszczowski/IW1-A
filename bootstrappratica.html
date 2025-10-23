@@ -12,34 +12,45 @@
       background-color: #f8f9fa;
     }
     header {
-      background: linear-gradient(90deg, #ff8725, #12fc45);
+      background: linear-gradient(90deg, #ff8725, #12fc45, #9128a7);
     }
-
+    footer {
+      background: linear-gradient(90deg, #ff8725, #12fc45, #9128a7);
+    }
   </style>
 <body>
     <nav class="navbar navbar-extend-sm">
         <div class="container">
-          <a class="navbar-brand" href="#">Sucos de fruta</a>
+          <a class="navbar-brand" href="#">Sucos de Fruta</a>
           <div>
-            <a class="navbar-brand" href="#header">limao</a>
-            <a class="navbar-brand" href="#vantagens">laranja</a>
+            <a class="navbar-brand" href="#limao">Limao</a>
+            <a class="navbar-brand" href="#laranja">Laranja</a>
+            <a class="navbar-brand" href="#uva">Uva</a>
           </div>
         </div>
       </nav>   
       <header id="header" class="text-white text-center p-5">
         <div class="container">
-          <h1 class="fw-bold">Sucos de fruta</h1>
+          <h1 class="fw-bold">Sucos de Fruta</h1>
           <p class="lead">Veja diferentes tipos de suco de frutas.</p>
         </div>
       </header>
-      <main class="container">
-        <div class="card colun">
+      <main class="container w-100">
+        <div id="limao" class="card colun w-100 h-50 d-flex justify-content-center align-items-center">
             <h1 class="text-center fw-bold text-success">Suco de limao</h1>
-            <img src="assets/suco de limao.jpg">
+            <img class="h-25 w-25" src="assets/suco de limao.jpg">
         </div>
-        <div class="card">
-
-        </div>
+        <div id="laranja" class="card colun w-100 h-50 d-flex justify-content-center align-items-center">
+          <h1 class="text-center fw-bold text-danger">Suco de Laranja</h1>
+          <img class="h-25 w-25" src="assets/suco de laranja.jpg">
+      </div>
+      <div id="uva" class="card colun w-100 h-50 d-flex justify-content-center align-items-center">
+        <h1 class="text-center fw-bold ">Suco de uva</h1>
+        <img class="h-25 w-25" src="assets/suco de uva.jpg">
+    </div>
       </main>
+      <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025. Todos os direitos reservados</p>
+      </footer>
 </body>
 </html>
